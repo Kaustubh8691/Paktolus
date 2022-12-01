@@ -11,7 +11,8 @@ for backend -
 1) make sure docker and pgadmin or postgresql is running
 2) i used mannul command to create table 
 3) using following commands first i check wheather it working fine or not.
-# ---------------------to create table with required constraint---------------
+# 
+---------------------to create table with required constraint---------------
 
         CREATE TABLE user1 (
       	id serial PRIMARY KEY,
@@ -33,14 +34,19 @@ for backend -
      update user1 set comments=ARRAY ['new thing','second comment'] where id=1
 
 
+#
 4)create docker image using command  docker build -t imagegename
+#
 5)run that image using  command docker run -p 80:8000 imagename
+#
 6)back running on port 8000.
+#
 sometimes docker doesn't start  then we can we direct python command to run backend for this we have to follow these steps--
+#
 1)install all required modules from requirements.txt file using command   pip install -r requirements.txt
 2)run file app.py file using  command  - python app.py 
 3)backend starts on port 8000
-
+#
 ![image](https://user-images.githubusercontent.com/98754287/205159993-a56050b1-d7dd-4bf4-9248-0d941d6272e8.png)
 ![image](https://user-images.githubusercontent.com/98754287/205160071-1b8ff39f-0bcc-435f-a077-7e7483168d81.png)
 ![image](https://user-images.githubusercontent.com/98754287/205160121-774b61d4-0075-466d-9532-f3961595e18d.png)
