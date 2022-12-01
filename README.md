@@ -52,6 +52,7 @@ sometimes docker doesn't start  then we can we direct python command to run back
 ![image](https://user-images.githubusercontent.com/98754287/205160121-774b61d4-0075-466d-9532-f3961595e18d.png)
 ![image](https://user-images.githubusercontent.com/98754287/205160169-b5cfe626-8deb-4641-815d-dc1dd071c003.png)
 
+![image](https://user-images.githubusercontent.com/98754287/205162677-cba7b369-5886-46d0-9dc5-7ed3b0cf23a6.png)
 
 
 
