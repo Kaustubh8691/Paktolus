@@ -1,7 +1,7 @@
 # Paktolus
 
 
-use deployed link - https://packlotus-task.netlify.app/
+use deployed link - https://delicate-monstera-9c1abe.netlify.app/
 
 to run frontend -
 1)install node modules using npm install
