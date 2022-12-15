@@ -31,7 +31,7 @@ const AddForm = () => {
       console.log("jdgasvgasv", formValue);
       try {
         const response = await axios.post(
-          "https://packtolus.herokuapp.com/api/blog/addblog",
+          "https://packalotus-backend.onrender.com/api/blog/addblog",
           formValue
         );
         console.log(response);
