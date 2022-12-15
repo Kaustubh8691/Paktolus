@@ -21,7 +21,7 @@ const Posts = ({ setBlogid, blogid }) => {
   };
   
   const handleSearch = async () => {
-    const response = await axios.get("https://packtolus.herokuapp.com/api/allBlogs");
+    const response = await axios.get("https://packalotus-backend.onrender.com/api/allBlogs");
     console.log(response.data);
     let data1 = response.data;
     const dataone = data1.filter((Element) => Element.userName.includes(search) );
@@ -35,7 +35,7 @@ const Posts = ({ setBlogid, blogid }) => {
     navigate("/post");
   };
   const getData = async () => {
-    const response = await axios.get("https://packtolus.herokuapp.com/api/allBlogs");
+    const response = await axios.get("https://packalotus-backend.onrender.com/api/allBlogs");
     console.log(response.data);
     setData(response.data);
   };
@@ -47,7 +47,7 @@ const Posts = ({ setBlogid, blogid }) => {
       let name = sessionStorage.getItem("name");
       console.log(comment + "=" + name);
       let dt ={ "comment": comment+ "=" + name};
-      let url = "https://packtolus.herokuapp.com/api/blog/" + obj._id;
+      let url = "https://packalotus-backend.onrender.com/api/blog/" + obj._id;
       const response = await axios.put(url, dt);
       console.log(response.data);
       // setComment(" ")
